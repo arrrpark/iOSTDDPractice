@@ -91,11 +91,9 @@ class ItemManagerTest: XCTestCase {
         XCTAssertEqual(item.title, returnedItem.title)
     }
     
-    func testEqualItems_ShouldBeEqual() {
+    func testEqualItems_ShouldNotBeEqual() {
         var firstItem = ToDoItem(title: "First")
         var secondItem = ToDoItem(title: "Second")
-        
-        XCTAssertEqual(firstItem, secondItem)
         
         firstItem = ToDoItem(title: "First",
                              itemDescription: "First Description",

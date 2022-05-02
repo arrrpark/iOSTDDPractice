@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A29637928203982009F1D04 /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29637828203982009F1D04 /* DetailViewControllerTests.swift */; };
+		0A29637B28203A07009F1D04 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29637A28203A07009F1D04 /* DetailViewController.swift */; };
+		0A5DABF228203B74004EC501 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5DABF128203B74004EC501 /* MapKit.framework */; };
+		0A5DABF4282043BF004EC501 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DABF3282043BF004EC501 /* InputViewController.swift */; };
+		0A5DABF6282044A8004EC501 /* InputViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5DABF5282044A8004EC501 /* InputViewControllerTests.swift */; };
+		0A6F8EF5281FE83E002780EF /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F8EF4281FE83E002780EF /* ItemCell.swift */; };
+		0A6F8EF728202EA0002780EF /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6F8EF628202EA0002780EF /* ItemCellTests.swift */; };
 		0AB81078281F23C80050FFF0 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB81077281F23C80050FFF0 /* ItemListDataProvider.swift */; };
 		0AB8186028185E7100F629FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8185F28185E7100F629FE /* AppDelegate.swift */; };
 		0AB8186228185E7100F629FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8186128185E7100F629FE /* SceneDelegate.swift */; };
@@ -45,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A29637828203982009F1D04 /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		0A29637A28203A07009F1D04 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0A5DABF128203B74004EC501 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0A5DABF3282043BF004EC501 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		0A5DABF5282044A8004EC501 /* InputViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewControllerTests.swift; sourceTree = "<group>"; };
+		0A6F8EF4281FE83E002780EF /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		0A6F8EF628202EA0002780EF /* ItemCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCellTests.swift; sourceTree = "<group>"; };
 		0AB81077281F23C80050FFF0 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
 		0AB8185C28185E7100F629FE /* TestDrivenSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDrivenSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB8185F28185E7100F629FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5DABF228203B74004EC501 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A5DABF028203B74004EC501 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5DABF128203B74004EC501 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0AB8185328185E7100F629FE = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +124,7 @@
 				0AB8187528185E7500F629FE /* TestDrivenSampleTests */,
 				0AB8187F28185E7500F629FE /* TestDrivenSampleUITests */,
 				0AB8185D28185E7100F629FE /* Products */,
+				0A5DABF028203B74004EC501 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,8 +144,11 @@
 				0AB8185F28185E7100F629FE /* AppDelegate.swift */,
 				0AB8186128185E7100F629FE /* SceneDelegate.swift */,
 				0AB8186328185E7100F629FE /* ViewController.swift */,
+				0A29637A28203A07009F1D04 /* DetailViewController.swift */,
+				0A5DABF3282043BF004EC501 /* InputViewController.swift */,
 				0AE74731281F1CA500826D12 /* ItemListViewController.swift */,
 				0AB81077281F23C80050FFF0 /* ItemListDataProvider.swift */,
+				0A6F8EF4281FE83E002780EF /* ItemCell.swift */,
 				0AB8188F28185EDD00F629FE /* Struct.swift */,
 				0AE7472A281F18E800826D12 /* Model */,
 				0AB8189528188F2400F629FE /* Jokes.swift */,
@@ -138,6 +165,9 @@
 			children = (
 				0AB818912818770500F629FE /* ItemManagerTest.swift */,
 				0AE74733281F1CC500826D12 /* ImteListViewControllerTests.swift */,
+				0A6F8EF628202EA0002780EF /* ItemCellTests.swift */,
+				0A29637828203982009F1D04 /* DetailViewControllerTests.swift */,
+				0A5DABF5282044A8004EC501 /* InputViewControllerTests.swift */,
 				0AB81893281881D300F629FE /* Networktest.swift */,
 			);
 			path = TestDrivenSampleTests;
@@ -294,8 +324,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB8186428185E7100F629FE /* ViewController.swift in Sources */,
+				0A5DABF4282043BF004EC501 /* InputViewController.swift in Sources */,
 				0AB81078281F23C80050FFF0 /* ItemListDataProvider.swift in Sources */,
 				0AB8189628188F2400F629FE /* Jokes.swift in Sources */,
+				0A29637B28203A07009F1D04 /* DetailViewController.swift in Sources */,
+				0A6F8EF5281FE83E002780EF /* ItemCell.swift in Sources */,
 				0AE74732281F1CA500826D12 /* ItemListViewController.swift in Sources */,
 				0AE7472C281F1C1C00826D12 /* ToDoItem.swift in Sources */,
 				0AB8186028185E7100F629FE /* AppDelegate.swift in Sources */,
@@ -310,9 +343,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5DABF6282044A8004EC501 /* InputViewControllerTests.swift in Sources */,
+				0A6F8EF728202EA0002780EF /* ItemCellTests.swift in Sources */,
 				0AE74734281F1CC500826D12 /* ImteListViewControllerTests.swift in Sources */,
 				0AB81894281881D300F629FE /* Networktest.swift in Sources */,
 				0AB818922818770500F629FE /* ItemManagerTest.swift in Sources */,
+				0A29637928203982009F1D04 /* DetailViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
